@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.addictioncodes.news.Technology"
+    >
+    <TextView
+        android:id="@+id/text_t"
+        android:textColor="@color/secondary_text"
+        android:text="fetching data through Network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        />
+    <ProgressBar
+        android:id="@+id/progress_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="100dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_t"
+        android:drawSelectorOnTop="true"
+        />
+</FrameLayout>
